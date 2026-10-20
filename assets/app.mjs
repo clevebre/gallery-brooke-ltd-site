@@ -153,7 +153,7 @@ function renderCollection(collection) {
     text('collecting-title', product.title);
     text('product-description', product.description);
     const includedWorks = (product.workIds ?? []).map(id => catalogue.works.find(work => work.id === id)).filter(Boolean);
-    text('product-included', includedWorks.length ? `Included in the proposed download: ${includedWorks.map(work => work.title).join('; ')}. Other works in the exhibition above are not part of this download.` : '');
+    text('product-included', includedWorks.length ? `Included in ${catalogue.site.mode === 'production' ? 'this' : 'the proposed'} download: ${includedWorks.map(work => work.title).join('; ')}. Other works in the exhibition above are not part of this download.` : '');
     const amount = new Intl.NumberFormat('en-GB', { style: 'currency', currency: product.price.currency, maximumFractionDigits: product.price.amount % 100 ? 2 : 0 }).format(product.price.amount / 100);
     byId('product-price').replaceChildren(document.createTextNode(amount), make('span', '', product.price.status === 'proposal' ? 'Proposed price · one digital collection' : 'One digital collection'));
     byId('product-contents').replaceChildren(...product.contents.map(item => make('li', '', item)));

@@ -7,7 +7,7 @@
     "publicTextApproved": true,
     "domain": "gallery.brooke.ltd",
     "intro": "An evolving gallery of colour, line, form and unexpected relationships.",
-    "catalogueNote": "Six digital collections, six works in each, £9 per collection. Three checkouts are open; the remaining download uploads are being connected. Titles are curatorial labels; earlier archive studies remain on view.",
+    "catalogueNote": "Six digital collections, six works in each, £9 per collection. Titles are curatorial labels; earlier archive studies remain on view.",
     "mode": "production"
   },
   "kinds": [
@@ -1442,15 +1442,15 @@
         "Personal and finished commercial digital-design licence, file index and checksums"
       ],
       "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
-      "releaseStatus": "review",
-      "rightsVerified": false,
-      "checkoutVerified": false,
+      "releaseStatus": "active",
+      "rightsVerified": true,
+      "checkoutVerified": true,
       "price": {
         "amount": 900,
         "currency": "GBP",
         "status": "approved"
       },
-      "checkoutUrl": null
+      "checkoutUrl": "https://buy.polar.sh/polar_cl_3THQaZQGweAVNVDwSme563azdyXd5mpz8JUIU1Zb1Z9"
     },
     {
       "id": "moon-gardens-01",
@@ -1471,15 +1471,15 @@
         "Personal and finished commercial digital-design licence, file index and checksums"
       ],
       "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
-      "releaseStatus": "review",
-      "rightsVerified": false,
-      "checkoutVerified": false,
+      "releaseStatus": "active",
+      "rightsVerified": true,
+      "checkoutVerified": true,
       "price": {
         "amount": 900,
         "currency": "GBP",
         "status": "approved"
       },
-      "checkoutUrl": null
+      "checkoutUrl": "https://buy.polar.sh/polar_cl_zholjnxHMm9lxQUUCUGQ3RalOPJEMi0KbIpsN3Ytw50"
     },
     {
       "id": "playful-machines-01",
@@ -1500,15 +1500,15 @@
         "Personal and finished commercial digital-design licence, file index and checksums"
       ],
       "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
-      "releaseStatus": "review",
-      "rightsVerified": false,
-      "checkoutVerified": false,
+      "releaseStatus": "active",
+      "rightsVerified": true,
+      "checkoutVerified": true,
       "price": {
         "amount": 900,
         "currency": "GBP",
         "status": "approved"
       },
-      "checkoutUrl": null
+      "checkoutUrl": "https://buy.polar.sh/polar_cl_JKuipFZSLMwKc1IDxpFD23Dr1xAIw3amcmQ3T1E4tGJ"
     }
   ],
   "links": {
