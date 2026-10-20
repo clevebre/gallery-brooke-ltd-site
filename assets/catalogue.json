@@ -3,12 +3,12 @@
   "site": {
     "title": "The Art of Not Art",
     "attribution": "Brooke Tamsin Clevenger",
-    "version": "0.1.0-development.1",
-    "publicTextApproved": false,
+    "version": "1.0.0",
+    "publicTextApproved": true,
     "domain": "gallery.brooke.ltd",
     "intro": "An evolving gallery of colour, line, form and unexpected relationships.",
-    "catalogueNote": "A first selection, not a census of the archive. Titles and visual descriptors are working curatorial labels.",
-    "mode": "development"
+    "catalogueNote": "Six digital collections, six works in each, £9 per collection. Three checkouts are open; the remaining download uploads are being connected. Titles are curatorial labels; earlier archive studies remain on view.",
+    "mode": "production"
   },
   "kinds": [
     {
@@ -34,6 +34,18 @@
     {
       "id": "minimal-forms",
       "label": "Minimal forms"
+    },
+    {
+      "id": "imagined-rooms",
+      "label": "Imagined rooms"
+    },
+    {
+      "id": "imagined-landscapes",
+      "label": "Imagined landscapes"
+    },
+    {
+      "id": "imagined-machines",
+      "label": "Imagined machines"
     }
   ],
   "qualities": [
@@ -75,10 +87,89 @@
         "cs-03",
         "cs-04",
         "cs-05",
-        "cs-06",
-        "prism-01"
+        "cs-06"
       ],
       "productId": "chromatic-signals-01"
+    },
+    {
+      "id": "geometric-play",
+      "title": "Geometric Play",
+      "subtitle": "Shapes in conversation",
+      "description": "Circles, planes, shaded objects and exuberant curves: six different ways to let geometry play.",
+      "heroId": "gp-03",
+      "workIds": [
+        "gp-01",
+        "gp-02",
+        "gp-03",
+        "gp-04",
+        "gp-05",
+        "gp-06"
+      ],
+      "productId": "geometric-play-01"
+    },
+    {
+      "id": "ornamental-currents",
+      "title": "Ornamental Currents",
+      "subtitle": "Pattern with a pulse",
+      "description": "Dense marks, spirals and interlocking fields. Six intricate compositions that reward a closer look.",
+      "heroId": "oc-01",
+      "workIds": [
+        "oc-01",
+        "oc-02",
+        "oc-03",
+        "oc-04",
+        "oc-05",
+        "oc-06"
+      ],
+      "productId": "ornamental-currents-01"
+    },
+    {
+      "id": "rooms-of-light",
+      "title": "Rooms of Light",
+      "subtitle": "Interiors, almost remembered",
+      "description": "Warm windows, blue corners and luminous thresholds. Six imagined spaces held between architecture and colour.",
+      "heroId": "rl-04",
+      "workIds": [
+        "rl-01",
+        "rl-02",
+        "rl-03",
+        "rl-04",
+        "rl-05",
+        "rl-06"
+      ],
+      "productId": "rooms-of-light-01"
+    },
+    {
+      "id": "moon-gardens",
+      "title": "Moon Gardens",
+      "subtitle": "Paths through the luminous",
+      "description": "Moonlit gardens, winding paths and impossible shores in deep blues, greens and golds.",
+      "heroId": "mg-01",
+      "workIds": [
+        "mg-01",
+        "mg-02",
+        "mg-03",
+        "mg-04",
+        "mg-05",
+        "mg-06"
+      ],
+      "productId": "moon-gardens-01"
+    },
+    {
+      "id": "playful-machines",
+      "title": "Playful Machines",
+      "subtitle": "Vehicles from somewhere else",
+      "description": "Six curious vehicles on warm paper-like grounds: a small procession of colour, character and invented engineering.",
+      "heroId": "pm-05",
+      "workIds": [
+        "pm-01",
+        "pm-02",
+        "pm-03",
+        "pm-04",
+        "pm-05",
+        "pm-06"
+      ],
+      "productId": "playful-machines-01"
     },
     {
       "id": "liquid-imaginings",
@@ -119,6 +210,17 @@
         "still-01"
       ],
       "productId": null
+    },
+    {
+      "id": "archive-studies",
+      "title": "An Earlier Signal",
+      "subtitle": "A study kept in view",
+      "description": "An additional work from the first archive selection, retained beside the six-image collections.",
+      "heroId": "prism-01",
+      "workIds": [
+        "prism-01"
+      ],
+      "productId": null
     }
   ],
   "works": [
@@ -138,7 +240,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/cs-01-1600.webp",
         "thumbnail": "assets/art/cs-01-640.webp",
@@ -162,7 +264,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/cs-02-1600.webp",
         "thumbnail": "assets/art/cs-02-640.webp",
@@ -186,7 +288,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/cs-03-1600.webp",
         "thumbnail": "assets/art/cs-03-640.webp",
@@ -210,7 +312,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/cs-04-1600.webp",
         "thumbnail": "assets/art/cs-04-640.webp",
@@ -234,7 +336,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/cs-05-1600.webp",
         "thumbnail": "assets/art/cs-05-640.webp",
@@ -258,10 +360,712 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/cs-06-1600.webp",
         "thumbnail": "assets/art/cs-06-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "gp-01",
+      "title": "Amber orbit",
+      "titleStatus": "editorial",
+      "description": "Amber panels beside curving yellow grid lines on a muted ground.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "geometric-play",
+      "alt": "Amber panels beside curving yellow grid lines on a muted ground.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/gp-01-1600.webp",
+        "thumbnail": "assets/art/gp-01-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "gp-02",
+      "title": "Studies in circles",
+      "titleStatus": "editorial",
+      "description": "A panelled arrangement of colourful circles, rings and intersecting lines.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "geometric-play",
+      "alt": "A panelled arrangement of colourful circles, rings and intersecting lines.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/gp-02-1600.webp",
+        "thumbnail": "assets/art/gp-02-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "gp-03",
+      "title": "Cabinet of forms",
+      "titleStatus": "editorial",
+      "description": "Shaded teal, green, coral and red forms arranged in a pale rectangular grid.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "geometric-play",
+      "alt": "Shaded teal, green, coral and red forms arranged in a pale rectangular grid.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/gp-03-1600.webp",
+        "thumbnail": "assets/art/gp-03-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "gp-04",
+      "title": "Curved colour",
+      "titleStatus": "editorial",
+      "description": "Broad orange and cream curves surround teal and pink rounded shapes.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "geometric-play",
+      "alt": "Broad orange and cream curves surround teal and pink rounded shapes.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/gp-04-1600.webp",
+        "thumbnail": "assets/art/gp-04-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "gp-05",
+      "title": "Framed flourish",
+      "titleStatus": "editorial",
+      "description": "A framed field of green, pink and teal curving forms with dense small marks.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "geometric-play",
+      "alt": "A framed field of green, pink and teal curving forms with dense small marks.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/gp-05-1600.webp",
+        "thumbnail": "assets/art/gp-05-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "gp-06",
+      "title": "Folded planes",
+      "titleStatus": "editorial",
+      "description": "Overlapping dark, green, orange, purple and red geometric planes.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "geometric-play",
+      "alt": "Overlapping dark, green, orange, purple and red geometric planes.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/gp-06-1600.webp",
+        "thumbnail": "assets/art/gp-06-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "oc-01",
+      "title": "Ripple centre",
+      "titleStatus": "editorial",
+      "description": "Golden concentric ripples and mirrored contours on a deep blue square.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "ornamental-currents",
+      "alt": "Golden concentric ripples and mirrored contours on a deep blue square.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/oc-01-1600.webp",
+        "thumbnail": "assets/art/oc-01-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "oc-02",
+      "title": "Electric weave",
+      "titleStatus": "editorial",
+      "description": "Dense multicoloured lines flow into a mirrored central pattern.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "ornamental-currents",
+      "alt": "Dense multicoloured lines flow into a mirrored central pattern.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/oc-02-1600.webp",
+        "thumbnail": "assets/art/oc-02-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "oc-03",
+      "title": "Spiral field",
+      "titleStatus": "editorial",
+      "description": "Bright concentric curves curl through an intricate cyan, orange and yellow field.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "ornamental-currents",
+      "alt": "Bright concentric curves curl through an intricate cyan, orange and yellow field.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/oc-03-1600.webp",
+        "thumbnail": "assets/art/oc-03-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "oc-04",
+      "title": "Constructed current",
+      "titleStatus": "editorial",
+      "description": "Stacked blue, purple and orange angular bands filled with fine line patterns.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "ornamental-currents",
+      "alt": "Stacked blue, purple and orange angular bands filled with fine line patterns.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/oc-04-1600.webp",
+        "thumbnail": "assets/art/oc-04-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "oc-05",
+      "title": "Pattern conversation",
+      "titleStatus": "editorial",
+      "description": "Teal, orange, yellow and pink shapes fitted together with dense linear texture.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "ornamental-currents",
+      "alt": "Teal, orange, yellow and pink shapes fitted together with dense linear texture.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/oc-05-1600.webp",
+        "thumbnail": "assets/art/oc-05-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "oc-06",
+      "title": "Ornamental echoes",
+      "titleStatus": "editorial",
+      "description": "Bold red, black, cyan and yellow ornamental bands and looping forms.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "ornamental-currents",
+      "alt": "Bold red, black, cyan and yellow ornamental bands and looping forms.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/oc-06-1600.webp",
+        "thumbnail": "assets/art/oc-06-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "rl-01",
+      "title": "Amber room",
+      "titleStatus": "editorial",
+      "description": "A warm amber room with three luminous windows and pale light across the floor.",
+      "kind": "imagined-rooms",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "rooms-of-light",
+      "alt": "A warm amber room with three luminous windows and pale light across the floor.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/rl-01-1600.webp",
+        "thumbnail": "assets/art/rl-01-640.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "rl-02",
+      "title": "Blue corner",
+      "titleStatus": "editorial",
+      "description": "An empty corner with luminous pale and turquoise walls above an orange floor.",
+      "kind": "imagined-rooms",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "rooms-of-light",
+      "alt": "An empty corner with luminous pale and turquoise walls above an orange floor.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/rl-02-1600.webp",
+        "thumbnail": "assets/art/rl-02-640.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "rl-03",
+      "title": "Pale threshold",
+      "titleStatus": "editorial",
+      "description": "A pale luminous oval threshold surrounded by muted red and blue.",
+      "kind": "imagined-rooms",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "rooms-of-light",
+      "alt": "A pale luminous oval threshold surrounded by muted red and blue.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/rl-03-1600.webp",
+        "thumbnail": "assets/art/rl-03-640.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "rl-04",
+      "title": "Green chamber",
+      "titleStatus": "editorial",
+      "description": "A green room with a picture, tall window and pools of light on the floor.",
+      "kind": "imagined-rooms",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "rooms-of-light",
+      "alt": "A green room with a picture, tall window and pools of light on the floor.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/rl-04-1600.webp",
+        "thumbnail": "assets/art/rl-04-640.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "rl-05",
+      "title": "Light on blue",
+      "titleStatus": "editorial",
+      "description": "A blue room with glowing windows and warm light on a red-purple floor.",
+      "kind": "imagined-rooms",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "rooms-of-light",
+      "alt": "A blue room with glowing windows and warm light on a red-purple floor.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/rl-05-1600.webp",
+        "thumbnail": "assets/art/rl-05-640.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "rl-06",
+      "title": "A chair in the light",
+      "titleStatus": "editorial",
+      "description": "A small red chair beside a tall luminous window and textured turquoise wall.",
+      "kind": "imagined-rooms",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "rooms-of-light",
+      "alt": "A small red chair beside a tall luminous window and textured turquoise wall.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/rl-06-1600.webp",
+        "thumbnail": "assets/art/rl-06-640.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "mg-01",
+      "title": "Moonlit path",
+      "titleStatus": "editorial",
+      "description": "A pale winding path between tall green forms under a bright moon in a cobalt sky.",
+      "kind": "imagined-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "moon-gardens",
+      "alt": "A pale winding path between tall green forms under a bright moon in a cobalt sky.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/mg-01-1600.webp",
+        "thumbnail": "assets/art/mg-01-640.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "mg-02",
+      "title": "Between tall trees",
+      "titleStatus": "editorial",
+      "description": "A luminous path winds between tall red and green forms beneath a small pale moon.",
+      "kind": "imagined-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "moon-gardens",
+      "alt": "A luminous path winds between tall red and green forms beneath a small pale moon.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/mg-02-1600.webp",
+        "thumbnail": "assets/art/mg-02-640.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "mg-03",
+      "title": "Blue tide",
+      "titleStatus": "editorial",
+      "description": "A sculpted blue wave curves around an amber form under a swirling sky.",
+      "kind": "imagined-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "moon-gardens",
+      "alt": "A sculpted blue wave curves around an amber form under a swirling sky.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/mg-03-1600.webp",
+        "thumbnail": "assets/art/mg-03-640.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "mg-04",
+      "title": "Moon on water",
+      "titleStatus": "editorial",
+      "description": "A bright moon reflected in a yellow path across dark blue water.",
+      "kind": "imagined-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "moon-gardens",
+      "alt": "A bright moon reflected in a yellow path across dark blue water.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/mg-04-1600.webp",
+        "thumbnail": "assets/art/mg-04-640.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "mg-05",
+      "title": "Golden garden",
+      "titleStatus": "editorial",
+      "description": "A garden path and rounded trees beneath a glowing sky, surrounded by a gold frame within the image.",
+      "kind": "imagined-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "moon-gardens",
+      "alt": "A garden path and rounded trees beneath a glowing sky, surrounded by a gold frame within the image.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/mg-05-1600.webp",
+        "thumbnail": "assets/art/mg-05-640.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "mg-06",
+      "title": "Dune of light",
+      "titleStatus": "editorial",
+      "description": "An amber dune with a blue winding edge under a bright sun or moon in a textured sky.",
+      "kind": "imagined-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "moon-gardens",
+      "alt": "An amber dune with a blue winding edge under a bright sun or moon in a textured sky.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/mg-06-1600.webp",
+        "thumbnail": "assets/art/mg-06-640.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "pm-01",
+      "title": "Green roadster",
+      "titleStatus": "editorial",
+      "description": "A green open-top imaginary car with patterned bodywork and blue-ringed wheels.",
+      "kind": "imagined-machines",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "playful-machines",
+      "alt": "A green open-top imaginary car with patterned bodywork and blue-ringed wheels.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/pm-01-1600.webp",
+        "thumbnail": "assets/art/pm-01-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "pm-02",
+      "title": "Patterned carriage",
+      "titleStatus": "editorial",
+      "description": "A tall boxy carriage-like vehicle with patterned red and green panels.",
+      "kind": "imagined-machines",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "playful-machines",
+      "alt": "A tall boxy carriage-like vehicle with patterned red and green panels.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/pm-02-1600.webp",
+        "thumbnail": "assets/art/pm-02-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "pm-03",
+      "title": "Orange voyager",
+      "titleStatus": "editorial",
+      "description": "An orange and black imaginary vehicle with an upward-curving rear.",
+      "kind": "imagined-machines",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "playful-machines",
+      "alt": "An orange and black imaginary vehicle with an upward-curving rear.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/pm-03-1600.webp",
+        "thumbnail": "assets/art/pm-03-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "pm-04",
+      "title": "Scarlet traveller",
+      "titleStatus": "editorial",
+      "description": "A low scarlet vehicle with green doors and three pale windows, within a frame in the image.",
+      "kind": "imagined-machines",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "playful-machines",
+      "alt": "A low scarlet vehicle with green doors and three pale windows, within a frame in the image.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/pm-04-1600.webp",
+        "thumbnail": "assets/art/pm-04-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "pm-05",
+      "title": "Little red car",
+      "titleStatus": "editorial",
+      "description": "A small red car with bright blue windows and spiral-like wheel details.",
+      "kind": "imagined-machines",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "playful-machines",
+      "alt": "A small red car with bright blue windows and spiral-like wheel details.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/pm-05-1600.webp",
+        "thumbnail": "assets/art/pm-05-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "pm-06",
+      "title": "Blue wheel sketch",
+      "titleStatus": "editorial",
+      "description": "A spare black outline of a small car with two vivid blue wheels on a warm ground.",
+      "kind": "imagined-machines",
+      "qualities": [
+        "quiet",
+        "spacious"
+      ],
+      "collectionId": "playful-machines",
+      "alt": "A spare black outline of a small car with two vivid blue wheels on a warm ground.",
+      "sourceLabel": "Brooke's digital archive",
+      "creationMethod": "AI-generated and subsequently processed",
+      "year": null,
+      "publicationApproved": true,
+      "image": {
+        "src": "assets/art/pm-06-1600.webp",
+        "thumbnail": "assets/art/pm-06-640.webp",
         "width": 1600,
         "height": 1600
       }
@@ -277,12 +1081,12 @@
         "geometric",
         "spacious"
       ],
-      "collectionId": "chromatic-signals",
+      "collectionId": "archive-studies",
       "alt": "A prism-like triangular form in blue, violet and yellow beside a grid of luminous colours.",
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/prism-01-1600.webp",
         "thumbnail": "assets/art/prism-01-640.webp",
@@ -306,7 +1110,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/fluid-01-1600.webp",
         "thumbnail": "assets/art/fluid-01-640.webp",
@@ -330,7 +1134,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/fluid-02-1600.webp",
         "thumbnail": "assets/art/fluid-02-640.webp",
@@ -354,7 +1158,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/fluid-03-1600.webp",
         "thumbnail": "assets/art/fluid-03-640.webp",
@@ -378,7 +1182,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/fluid-04-1600.webp",
         "thumbnail": "assets/art/fluid-04-640.webp",
@@ -402,7 +1206,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/fluid-05-1600.webp",
         "thumbnail": "assets/art/fluid-05-640.webp",
@@ -426,7 +1230,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/line-01-1600.webp",
         "thumbnail": "assets/art/line-01-640.webp",
@@ -450,7 +1254,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/line-02-1600.webp",
         "thumbnail": "assets/art/line-02-640.webp",
@@ -474,7 +1278,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/line-03-1600.webp",
         "thumbnail": "assets/art/line-03-640.webp",
@@ -498,7 +1302,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/line-04-1600.webp",
         "thumbnail": "assets/art/line-04-640.webp",
@@ -522,7 +1326,7 @@
       "sourceLabel": "Digital archive",
       "creationMethod": null,
       "year": null,
-      "publicationApproved": false,
+      "publicationApproved": true,
       "image": {
         "src": "assets/art/still-01-1600.webp",
         "thumbnail": "assets/art/still-01-640.webp",
@@ -535,7 +1339,7 @@
     {
       "id": "chromatic-signals-01",
       "title": "Chromatic Signals — Volume 01",
-      "description": "Six coordinated square digital abstracts to take into your own compositions.",
+      "description": "Six saturated abstract compositions, coordinated to take into your own designs.",
       "collectionId": "chromatic-signals",
       "workIds": [
         "cs-01",
@@ -547,17 +1351,162 @@
       ],
       "contents": [
         "6 individual PNG images, each 2048 × 2048 pixels",
-        "Original partial opacity retained; no fully transparent pixels",
-        "File index and proposed licence terms"
+        "Archived image bytes unchanged; original opacity retained",
+        "Personal and finished commercial digital-design licence, file index and checksums"
       ],
-      "licenceSummary": "Proposed: one purchaser, personal projects and finished commercial designs. No redistribution of source files, asset-pack resale, unchanged-art prints or print-on-demand merchandise. The review draft is not a licence grant.",
+      "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
+      "releaseStatus": "active",
+      "rightsVerified": true,
+      "checkoutVerified": true,
+      "price": {
+        "amount": 900,
+        "currency": "GBP",
+        "status": "approved"
+      },
+      "checkoutUrl": "https://buy.polar.sh/polar_cl_BOvK1lyhn6OyKPhEt1PiEZuL2bM7b4P4p3Tu61cNDp9"
+    },
+    {
+      "id": "geometric-play-01",
+      "title": "Geometric Play — Volume 01",
+      "description": "Circles, planes, shaded objects and exuberant curves: six different ways to let geometry play.",
+      "collectionId": "geometric-play",
+      "workIds": [
+        "gp-01",
+        "gp-02",
+        "gp-03",
+        "gp-04",
+        "gp-05",
+        "gp-06"
+      ],
+      "contents": [
+        "6 individual PNG images, each 2048 × 1280 pixels",
+        "Archived image bytes unchanged; original opacity retained",
+        "Personal and finished commercial digital-design licence, file index and checksums"
+      ],
+      "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
+      "releaseStatus": "active",
+      "rightsVerified": true,
+      "checkoutVerified": true,
+      "price": {
+        "amount": 900,
+        "currency": "GBP",
+        "status": "approved"
+      },
+      "checkoutUrl": "https://buy.polar.sh/polar_cl_1beR9DoQe1UDaK08frslMjvfP9fmTww1CsNdg0InpdL"
+    },
+    {
+      "id": "ornamental-currents-01",
+      "title": "Ornamental Currents — Volume 01",
+      "description": "Dense marks, spirals and interlocking fields. Six intricate compositions that reward a closer look.",
+      "collectionId": "ornamental-currents",
+      "workIds": [
+        "oc-01",
+        "oc-02",
+        "oc-03",
+        "oc-04",
+        "oc-05",
+        "oc-06"
+      ],
+      "contents": [
+        "6 individual PNG images, each 2048 × 2048 pixels",
+        "Archived image bytes unchanged; original opacity retained",
+        "Personal and finished commercial digital-design licence, file index and checksums"
+      ],
+      "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
+      "releaseStatus": "active",
+      "rightsVerified": true,
+      "checkoutVerified": true,
+      "price": {
+        "amount": 900,
+        "currency": "GBP",
+        "status": "approved"
+      },
+      "checkoutUrl": "https://buy.polar.sh/polar_cl_ZUVctMJZgPtSJ52h1ZdehAtnglfe5CEkQEHRu18hmQz"
+    },
+    {
+      "id": "rooms-of-light-01",
+      "title": "Rooms of Light — Volume 01",
+      "description": "Warm windows, blue corners and luminous thresholds. Six imagined spaces held between architecture and colour.",
+      "collectionId": "rooms-of-light",
+      "workIds": [
+        "rl-01",
+        "rl-02",
+        "rl-03",
+        "rl-04",
+        "rl-05",
+        "rl-06"
+      ],
+      "contents": [
+        "6 individual PNG images, each 3072 × 4096 pixels",
+        "Archived image bytes unchanged; original opacity retained",
+        "Personal and finished commercial digital-design licence, file index and checksums"
+      ],
+      "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
       "releaseStatus": "review",
       "rightsVerified": false,
       "checkoutVerified": false,
       "price": {
         "amount": 900,
         "currency": "GBP",
-        "status": "proposal"
+        "status": "approved"
+      },
+      "checkoutUrl": null
+    },
+    {
+      "id": "moon-gardens-01",
+      "title": "Moon Gardens — Volume 01",
+      "description": "Moonlit gardens, winding paths and impossible shores in deep blues, greens and golds.",
+      "collectionId": "moon-gardens",
+      "workIds": [
+        "mg-01",
+        "mg-02",
+        "mg-03",
+        "mg-04",
+        "mg-05",
+        "mg-06"
+      ],
+      "contents": [
+        "6 individual PNG images, each 4096 × 3072 pixels",
+        "Archived image bytes unchanged; original opacity retained",
+        "Personal and finished commercial digital-design licence, file index and checksums"
+      ],
+      "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
+      "releaseStatus": "review",
+      "rightsVerified": false,
+      "checkoutVerified": false,
+      "price": {
+        "amount": 900,
+        "currency": "GBP",
+        "status": "approved"
+      },
+      "checkoutUrl": null
+    },
+    {
+      "id": "playful-machines-01",
+      "title": "Playful Machines — Volume 01",
+      "description": "Six curious vehicles on warm paper-like grounds: a small procession of colour, character and invented engineering.",
+      "collectionId": "playful-machines",
+      "workIds": [
+        "pm-01",
+        "pm-02",
+        "pm-03",
+        "pm-04",
+        "pm-05",
+        "pm-06"
+      ],
+      "contents": [
+        "6 individual PNG images, each 4096 × 4096 pixels",
+        "Archived image bytes unchanged; original opacity retained",
+        "Personal and finished commercial digital-design licence, file index and checksums"
+      ],
+      "licenceSummary": "One purchaser: personal projects and finished commercial digital designs, including finished client work. No reusable-asset redistribution, templates, standalone prints, print-on-demand or AI-model training permission. Non-exclusive; mandatory consumer rights remain.",
+      "releaseStatus": "review",
+      "rightsVerified": false,
+      "checkoutVerified": false,
+      "price": {
+        "amount": 900,
+        "currency": "GBP",
+        "status": "approved"
       },
       "checkoutUrl": null
     }

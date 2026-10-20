@@ -48,3 +48,5 @@ nav.constellation.map .w{font-size:15px}
 footer a.sign{border-bottom:1px solid var(--under)}
 .vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 
+
+.licence-text{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.65;margin-block:2rem}
