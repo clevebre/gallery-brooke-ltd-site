@@ -1,12 +1,13 @@
 {
   "version": "1.0.0",
   "mode": "production",
-  "fingerprint": "4f7c3db026bf2603125d40eef6353c74b3d74904023f6255ab4d47e1cc163f3c",
+  "fingerprint": "b2fd19ce021d0ac1a0ca956ce2e9a50842d9a967aa63f6f2f30b56e081e22a2a",
   "domain": "gallery.brooke.ltd",
   "files": [
     ".nojekyll",
     "404.html",
     "CNAME",
+    "art-in-belfast/index.html",
     "assets/app.mjs",
     "assets/art/cs-01-1600.webp",
     "assets/art/cs-01-640.webp",
