@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "title": "The Art of Not Art",
+    "attribution": "Brooke Tamsin Clevenger",
+    "version": "0.1.0-development.1",
+    "publicTextApproved": false,
+    "domain": "gallery.brooke.ltd",
+    "intro": "An evolving gallery of colour, line, form and unexpected relationships.",
+    "catalogueNote": "A first selection, not a census of the archive. Titles and visual descriptors are working curatorial labels.",
+    "mode": "development"
+  },
+  "kinds": [
+    {
+      "id": "abstract-fields",
+      "label": "Abstract fields"
+    },
+    {
+      "id": "constructed-forms",
+      "label": "Constructed forms"
+    },
+    {
+      "id": "fluid-landscapes",
+      "label": "Fluid landscapes"
+    },
+    {
+      "id": "imagined-figures",
+      "label": "Imagined figures"
+    },
+    {
+      "id": "linear-organic",
+      "label": "Linear / organic"
+    },
+    {
+      "id": "minimal-forms",
+      "label": "Minimal forms"
+    }
+  ],
+  "qualities": [
+    {
+      "id": "electric",
+      "label": "Electric"
+    },
+    {
+      "id": "quiet",
+      "label": "Quiet"
+    },
+    {
+      "id": "intricate",
+      "label": "Intricate"
+    },
+    {
+      "id": "spacious",
+      "label": "Spacious"
+    },
+    {
+      "id": "flowing",
+      "label": "Flowing"
+    },
+    {
+      "id": "geometric",
+      "label": "Geometric"
+    }
+  ],
+  "collections": [
+    {
+      "id": "chromatic-signals",
+      "title": "Chromatic Signals",
+      "subtitle": "Colour, repeated and interrupted",
+      "description": "Saturated fields, mirrored structures and angular forms. An invitation to follow rhythm through colour.",
+      "heroId": "cs-04",
+      "workIds": [
+        "cs-01",
+        "cs-02",
+        "cs-03",
+        "cs-04",
+        "cs-05",
+        "cs-06",
+        "prism-01"
+      ],
+      "productId": "chromatic-signals-01"
+    },
+    {
+      "id": "liquid-imaginings",
+      "title": "Liquid Imaginings",
+      "subtitle": "Forms that almost settle",
+      "description": "Waves, edges and figures that suggest a world without entirely explaining it.",
+      "heroId": "fluid-04",
+      "workIds": [
+        "fluid-01",
+        "fluid-02",
+        "fluid-03",
+        "fluid-04",
+        "fluid-05"
+      ],
+      "productId": null
+    },
+    {
+      "id": "line-and-rhythm",
+      "title": "Line & Rhythm",
+      "subtitle": "Routes through a field",
+      "description": "Contours, crossings and branching paths. A closer way of looking at the movement within a still image.",
+      "heroId": "line-04",
+      "workIds": [
+        "line-01",
+        "line-02",
+        "line-03",
+        "line-04"
+      ],
+      "productId": null
+    },
+    {
+      "id": "a-quiet-line",
+      "title": "A Quiet Line",
+      "subtitle": "Room for less",
+      "description": "A pause in the exhibition: one vertical form, a pale ground, and the space around them.",
+      "heroId": "still-01",
+      "workIds": [
+        "still-01"
+      ],
+      "productId": null
+    }
+  ],
+  "works": [
+    {
+      "id": "cs-01",
+      "title": "Neon cadence",
+      "titleStatus": "editorial",
+      "description": "A dense rhythm of acid yellow, red, cream and deep blue-black fields.",
+      "kind": "abstract-fields",
+      "qualities": [
+        "electric",
+        "intricate",
+        "geometric"
+      ],
+      "collectionId": "chromatic-signals",
+      "alt": "Cream and lime bands, red accents and dark blue-black blocks repeated across a square.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/cs-01-1600.webp",
+        "thumbnail": "assets/art/cs-01-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "cs-02",
+      "title": "Lime circuit",
+      "titleStatus": "editorial",
+      "description": "Black structures, bright lime and generous white interruptions.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "electric",
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "chromatic-signals",
+      "alt": "Mirrored black block-like structures with lime and green vertical strips against white.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/cs-02-1600.webp",
+        "thumbnail": "assets/art/cs-02-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "cs-03",
+      "title": "Electric mosaic",
+      "titleStatus": "editorial",
+      "description": "Small forms gather into a vivid, repeating field.",
+      "kind": "abstract-fields",
+      "qualities": [
+        "electric",
+        "intricate",
+        "geometric"
+      ],
+      "collectionId": "chromatic-signals",
+      "alt": "A square mosaic of navy shapes, cyan, yellow, magenta and white.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/cs-03-1600.webp",
+        "thumbnail": "assets/art/cs-03-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "cs-04",
+      "title": "Cyan window",
+      "titleStatus": "editorial",
+      "description": "Open mint-coloured fields held in a blue and pink grid.",
+      "kind": "abstract-fields",
+      "qualities": [
+        "electric",
+        "spacious",
+        "geometric"
+      ],
+      "collectionId": "chromatic-signals",
+      "alt": "Two large pale cyan fields divided by hot pink and bounded by deep blue and black.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/cs-04-1600.webp",
+        "thumbnail": "assets/art/cs-04-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "cs-05",
+      "title": "Primary surge",
+      "titleStatus": "editorial",
+      "description": "Angular fragments of blue, yellow and red move across white.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "electric",
+        "geometric",
+        "flowing"
+      ],
+      "collectionId": "chromatic-signals",
+      "alt": "Strong blue, red and yellow angular fragments arranged on a white square.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/cs-05-1600.webp",
+        "thumbnail": "assets/art/cs-05-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "cs-06",
+      "title": "Chromatic echo",
+      "titleStatus": "editorial",
+      "description": "Mirrored rainbow bars and dark forms make a concentrated centre.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "electric",
+        "intricate",
+        "geometric"
+      ],
+      "collectionId": "chromatic-signals",
+      "alt": "A symmetrical square composition with rainbow bars, black shapes and blue bursts.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/cs-06-1600.webp",
+        "thumbnail": "assets/art/cs-06-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "prism-01",
+      "title": "Prism / passage",
+      "titleStatus": "editorial",
+      "description": "An angular central form appears within fields of blue, pink and pale cyan.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "electric",
+        "geometric",
+        "spacious"
+      ],
+      "collectionId": "chromatic-signals",
+      "alt": "A prism-like triangular form in blue, violet and yellow beside a grid of luminous colours.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/prism-01-1600.webp",
+        "thumbnail": "assets/art/prism-01-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "fluid-01",
+      "title": "Chromatic weather",
+      "titleStatus": "editorial",
+      "description": "Blue and green sweep around a warmer centre, within an uneven dark edge.",
+      "kind": "fluid-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "spacious"
+      ],
+      "collectionId": "liquid-imaginings",
+      "alt": "A horizontal blue, green and yellow swirling field surrounded by a dark rectangular edge.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/fluid-01-1600.webp",
+        "thumbnail": "assets/art/fluid-01-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "fluid-02",
+      "title": "Molten edge",
+      "titleStatus": "editorial",
+      "description": "A yellow channel moves through red and blue, with rippling edges.",
+      "kind": "fluid-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "liquid-imaginings",
+      "alt": "A vertical yellow flowing shape with red and dark scalloped edges on a blue horizontal field.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/fluid-02-1600.webp",
+        "thumbnail": "assets/art/fluid-02-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "fluid-03",
+      "title": "An unlikely animal",
+      "titleStatus": "editorial",
+      "description": "A many-coloured animal-like silhouette crosses a luminous blue ground.",
+      "kind": "imagined-figures",
+      "qualities": [
+        "electric",
+        "flowing",
+        "intricate"
+      ],
+      "collectionId": "liquid-imaginings",
+      "alt": "A rainbow-coloured animal-like figure in profile within a gold-edged blue rectangle.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/fluid-03-1600.webp",
+        "thumbnail": "assets/art/fluid-03-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "fluid-04",
+      "title": "A gentle impossibility",
+      "titleStatus": "editorial",
+      "description": "A blue, antlered form stands against green and yellow.",
+      "kind": "imagined-figures",
+      "qualities": [
+        "electric",
+        "flowing",
+        "spacious"
+      ],
+      "collectionId": "liquid-imaginings",
+      "alt": "An elongated blue animal-like figure with branching antlers against luminous green and yellow.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/fluid-04-1600.webp",
+        "thumbnail": "assets/art/fluid-04-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "fluid-05",
+      "title": "Wave inside a frame",
+      "titleStatus": "editorial",
+      "description": "A single curving blue-green form gathers against a warm field.",
+      "kind": "fluid-landscapes",
+      "qualities": [
+        "electric",
+        "flowing",
+        "spacious"
+      ],
+      "collectionId": "liquid-imaginings",
+      "alt": "A blue and green curling wave-like shape inside an orange-red framed field.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/fluid-05-1600.webp",
+        "thumbnail": "assets/art/fluid-05-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "line-01",
+      "title": "Branching blue",
+      "titleStatus": "editorial",
+      "description": "An open yellow centre branches through a textured blue field.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "line-and-rhythm",
+      "alt": "Branching yellow and pale lines with small coloured marks inside deep blue organic shapes.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/line-01-1600.webp",
+        "thumbnail": "assets/art/line-01-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "line-02",
+      "title": "Contour / orbit",
+      "titleStatus": "editorial",
+      "description": "Orange lines and pale circular centres gather on blue.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "geometric",
+        "flowing"
+      ],
+      "collectionId": "line-and-rhythm",
+      "alt": "Orange and yellow layered contours and circular shapes on a blue horizontal composition.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/line-02-1600.webp",
+        "thumbnail": "assets/art/line-02-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "line-03",
+      "title": "Angles at play",
+      "titleStatus": "editorial",
+      "description": "Long coloured beams cross a restless blue field.",
+      "kind": "constructed-forms",
+      "qualities": [
+        "electric",
+        "geometric",
+        "intricate"
+      ],
+      "collectionId": "line-and-rhythm",
+      "alt": "Angular yellow, orange and red beams crossing a blue field with pale green accents.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/line-03-1600.webp",
+        "thumbnail": "assets/art/line-03-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "line-04",
+      "title": "Routes / returns",
+      "titleStatus": "editorial",
+      "description": "Fine, warm lines curve and intersect through blue.",
+      "kind": "linear-organic",
+      "qualities": [
+        "intricate",
+        "flowing",
+        "electric"
+      ],
+      "collectionId": "line-and-rhythm",
+      "alt": "Closely spaced yellow-orange lines, curves and branching junctions against blue.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/line-04-1600.webp",
+        "thumbnail": "assets/art/line-04-640.webp",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "still-01",
+      "title": "One quiet line",
+      "titleStatus": "editorial",
+      "description": "A narrow dark form divides a restrained pale field.",
+      "kind": "minimal-forms",
+      "qualities": [
+        "quiet",
+        "spacious",
+        "geometric"
+      ],
+      "collectionId": "a-quiet-line",
+      "alt": "A narrow black spire-like vertical line within a black-edged pale grey square.",
+      "sourceLabel": "Digital archive",
+      "creationMethod": null,
+      "year": null,
+      "publicationApproved": false,
+      "image": {
+        "src": "assets/art/still-01-1600.webp",
+        "thumbnail": "assets/art/still-01-640.webp",
+        "width": 1600,
+        "height": 1600
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "chromatic-signals-01",
+      "title": "Chromatic Signals — Volume 01",
+      "description": "Six coordinated square digital abstracts to take into your own compositions.",
+      "collectionId": "chromatic-signals",
+      "workIds": [
+        "cs-01",
+        "cs-02",
+        "cs-03",
+        "cs-04",
+        "cs-05",
+        "cs-06"
+      ],
+      "contents": [
+        "6 individual PNG images, each 2048 × 2048 pixels",
+        "Original partial opacity retained; no fully transparent pixels",
+        "File index and proposed licence terms"
+      ],
+      "licenceSummary": "Proposed: one purchaser, personal projects and finished commercial designs. No redistribution of source files, asset-pack resale, unchanged-art prints or print-on-demand merchandise. The review draft is not a licence grant.",
+      "releaseStatus": "review",
+      "rightsVerified": false,
+      "checkoutVerified": false,
+      "price": {
+        "amount": 900,
+        "currency": "GBP",
+        "status": "proposal"
+      },
+      "checkoutUrl": null
+    }
+  ],
+  "links": {
+    "home": "https://www.brooke.ltd/",
+    "artHistory": "https://www.brooke.ltd/create/Publishing-The-Art-of-not-Art",
+    "sevahem": "https://sevahem.com/",
+    "music": "https://cogconcor.com/"
+  }
+}
